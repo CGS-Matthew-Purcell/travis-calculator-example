@@ -21,7 +21,7 @@ class CalculatorTests extends PHPUnit_Framework_TestCase
         $this->assertEquals(3, $result);
     }
 
-    public func testSubtract()
+    public function testSubtract()
     {
         $result = $this->calculator->subtract(10, 2);
         $this->assertEquals(8, $result);
